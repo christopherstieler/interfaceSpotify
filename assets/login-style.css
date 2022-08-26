@@ -1,0 +1,65 @@
+body{
+    position: absolute;
+    width: 375px;
+    height: 812px;
+    left: 0px;
+    top: 0px;
+    background: #212121;
+}
+
+body img{
+    position: absolute;
+    width: 111px;
+    height: 110px;
+    left: 132px;
+    top: 135px;
+}
+
+body #email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 272px;
+    height: 42px;
+    left: 40px;
+    top: 385px;
+
+    background: #CDCDCD;
+}
+
+body #senha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 272px;
+    height: 42px;
+    left: 40px;
+    top: 319px;
+    background: #CDCDCD;
+}
+body #button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 10px;
+
+    position: absolute;
+    top: 451px;
+    width: 295px;
+    height: 42px;
+    left: 40px;
+    background: #CDCDCD;
+    
+}
